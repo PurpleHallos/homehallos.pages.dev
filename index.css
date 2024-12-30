@@ -94,7 +94,7 @@ header svg {
 header .bio {
     -webkit-mask: linear-gradient(to right, #fff 45%, transparent 55%) 0 0/220% 100% no-repeat;
     opacity: clamp(.7, .75 * var(--scroll, 0) + .7, .85);
-    animation: 2s ease-in-out 1.9s both bio;
+    animation: 1.5s ease-in-out 0s both bio;
     color: #fff;
     font-weight: normal;
     font-size: clamp(18px, 3vmin, 25px);
