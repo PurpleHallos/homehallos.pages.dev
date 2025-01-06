@@ -20,7 +20,7 @@ export async function onRequestGet({ request, waitUntil }) {
 async function fetchData() {
     const query = `query {
         Page(page: 1, perPage: 4) {
-            activities(userId: 6442292, sort: ID_DESC) {
+            activities(userId: 7105271, sort: ID_DESC) {
                 ... on ListActivity {
                     createdAt
                     status
